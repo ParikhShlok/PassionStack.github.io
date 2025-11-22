@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI English Chatbot Demo - PassionStack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo-link">
+                    <span class="logo">PassionStack</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="waitlist.html" class="btn-nav">Join Waitlist</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Chatbot Demo Section -->
+    <section class="chatbot-demo">
+        <div class="container">
+            <div class="demo-header">
+                <a href="index.html" class="back-link">← Back to Home</a>
+                <h1 class="demo-title">AI English Chatbot Demo</h1>
+                <p class="demo-subtitle">Practice friendly English conversations with instant corrections</p>
+            </div>
+
+            <div class="chatbot-container">
+                <div class="chatbot-window">
+                    <div class="chatbot-header">
+                        <div class="chatbot-avatar">
+                            <span>🤖</span>
+                        </div>
+                        <div class="chatbot-info">
+                            <h3>AI English Tutor</h3>
+                            <span class="chatbot-status">Online • Ready to help</span>
+                        </div>
+                    </div>
+
+                    <div class="chatbot-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">🤖</div>
+                            <div class="message-content">
+                                <p>Hi there! 👋 I'm your AI English tutor. I'm here to help you practice English in a friendly, supportive way.</p>
+                                <p>Feel free to chat about anything—your day, hobbies, studies, or just practice conversation. I'll help you improve with gentle corrections!</p>
+                                <span class="message-time">Just now</span>
+                            </div>
+                        </div>
+
+                        <div class="message bot-message">
+                            <div class="message-avatar">🤖</div>
+                            <div class="message-content">
+                                <p>Let's start! How are you doing today? 😊</p>
+                                <span class="message-time">Just now</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chatbot-input-area">
+                        <div class="example-conversations">
+                            <p class="example-label">Try these examples:</p>
+                            <div class="example-buttons">
+                                <button class="example-btn" data-text="I am good, thank you!">I am good, thank you!</button>
+                                <button class="example-btn" data-text="My day was very nice.">My day was very nice.</button>
+                                <button class="example-btn" data-text="I study computer science.">I study computer science.</button>
+                            </div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input 
+                                type="text" 
+                                id="chatInput" 
+                                class="chat-input" 
+                                placeholder="Type your message here..."
+                                autocomplete="off"
+                            >
+                            <button class="send-button" id="sendButton">
+                                <span>Send</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="demo-sidebar">
+                    <div class="sidebar-card">
+                        <h3>✨ How It Works</h3>
+                        <ul class="sidebar-list">
+                            <li>Type your message in English</li>
+                            <li>Get instant friendly feedback</li>
+                            <li>See corrections with explanations</li>
+                            <li>Practice anytime, anywhere</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>💡 Tips</h3>
+                        <ul class="sidebar-list">
+                            <li>Don't worry about mistakes</li>
+                            <li>Practice natural conversation</li>
+                            <li>Ask questions freely</li>
+                            <li>Learn from corrections</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card highlight">
+                        <h3>🚀 Join PassionStack</h3>
+                        <p>Get full access to the AI chatbot and all features when you join!</p>
+                        <a href="waitlist.html" class="btn btn-primary btn-small">Join Waitlist</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-cta">
+                <p>Love the demo? Join the waitlist to get early access!</p>
+                <a href="waitlist.html" class="btn btn-primary">Join Waitlist</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">PassionStack</h3>
+                    <p>Share knowledge. Earn rewards. Learn together.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="index.html#features">Features</a>
+                        <a href="chatbot-demo.html">Demo</a>
+                        <a href="waitlist.html">Waitlist</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="about.html">About</a>
+                        <a href="index.html#problem">Mission</a>
+                        <a href="index.html#solution">Vision</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PassionStack. Built with passion for students.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
